@@ -1,17 +1,20 @@
 
 $ (document) .ready(function() {
 
-    // $( "p" ).click(function() {
-    //     $( this ).slideUp();
-    //   });
+
       
       $(".bluebtn").click(function() {
           $( "p1" ).slideToggle();
         });
 
-        // $( ".bluebtn" ).click(function() {
-        //     $( "p1" ).css("color", "red");
-        //   });
+    $( "a" ).click(function( event ) {
+    event.preventDefault();
+    $( this ).hide();
+    });
+
+    $( ".btnshow" ).click(function() {
+        $( "p3" ).show( "slow" );
+      });
 
 
 })
