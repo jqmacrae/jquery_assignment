@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 500px;
+    /* height: 500px; */
+    border: 1px solid black;
+}
+
+.header {
+    width: 500 px;
+    height: 100px;
+    background-color: grey; 
+}
+
+.row1 {
+    width: 500px;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+.row2 {
+    width: 500px;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+.row3 {
+    width: 500px;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+}
+
+p {
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+  }
+  p:hover {
+    background: yellow;
+  }
