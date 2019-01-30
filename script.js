@@ -16,5 +16,15 @@ $ (document) .ready(function() {
         $( "p3" ).show( "slow" );
       });
 
+      $(".togbtn").click(function() {
+          $("p4").toggle("slow");
+      });
+
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideDown("slow");
+        });
+      });
+
 
 })
